@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factorial", "Factorial", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial.Core", "Factorial.Core\Factorial.Core.csproj", "{83848AF2-C761-49F1-87DE-019BE0ADFFD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial.Android", "Factorial.Android\Factorial.Android.csproj", "{1AE2918E-BA76-488D-88BB-BB5143342B31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,12 +33,19 @@ Global
 		{83848AF2-C761-49F1-87DE-019BE0ADFFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83848AF2-C761-49F1-87DE-019BE0ADFFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83848AF2-C761-49F1-87DE-019BE0ADFFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE2918E-BA76-488D-88BB-BB5143342B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE2918E-BA76-488D-88BB-BB5143342B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE2918E-BA76-488D-88BB-BB5143342B31}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1AE2918E-BA76-488D-88BB-BB5143342B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE2918E-BA76-488D-88BB-BB5143342B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE2918E-BA76-488D-88BB-BB5143342B31}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{83848AF2-C761-49F1-87DE-019BE0ADFFD6} = {55DD1EB5-DC78-4AE8-88F9-E71E65DEC76A}
+		{1AE2918E-BA76-488D-88BB-BB5143342B31} = {55DD1EB5-DC78-4AE8-88F9-E71E65DEC76A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B47D34DE-CA16-48BB-9834-E0EBD56FF19A}
